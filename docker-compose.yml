@@ -1,5 +1,5 @@
 services:
-  strapi-app:
+  strapi-app2:
     build: .
     ports:
       - "1337:1337"
