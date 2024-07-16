@@ -9,6 +9,8 @@ RUN apt-get install -y curl software-properties-common
 RUN curl -sL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt-get install -y nodejs
 
+RUN npm install -g strapi
+
 # Paso 4: Configurar el entorno de trabajo
 WORKDIR /app
 
